@@ -43,6 +43,7 @@ A "from-scratch" Image Processing and Machine Learning library for the ESP32 and
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![GPGPU](https://img.shields.io/badge/GPGPU-NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/windows-00599C?style=for-the-badge&logo=windows&logoColor=white)
 
 ## 📫 Let's talk Engineering
 
