@@ -13,7 +13,7 @@ I am an Electrical Engineer transitioned into High-Performance Software Architec
 Through the **Nodepp Project**, I have demonstrated that we can achieve **11,000x Virtual Memory efficiency** and **13x Infrastructure ROI** by moving away from heavy managed runtimes toward deterministic, vertically integrated C++ architectures.
 
 ## 📄 Selected Research & Publications
-- [Green Computing at the Edge: Scaling Resource-Dense Applications through Deterministic RAII and Silicon-Logic Parity.](https://github.com/NodeppOfficial/nodepp/blob/main/WHITEPAPER.md)
+- [Green Computing at the Edge: Scaling Resource-Dense Applications through Deterministic RAII and Silicon-Logic Parity.](https://nodeppofficial.github.io/nodepp-doc/whitepaper)
 - [Mastering APIfy: A Routing Protocol for Structured C++ Messaging](https://medium.com/@EDBCBlog/mastering-apify-a-routing-protocol-for-structured-c-messaging-400ac5e023d6)
 - [Surviving the Shadows: Building an Unbreakable Server on the Dark Web](https://medium.com/@EDBCBlog/surviving-the-shadows-building-an-unbreakable-server-on-the-dark-web-4cd59515b9ab)
 
