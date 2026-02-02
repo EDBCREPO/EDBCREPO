@@ -1,31 +1,48 @@
-# Hi there! I'm EDBC 👋 
-### Electrical Engineer | Systems Architect | Embedded AI & GPGPU
+# Enmanuel D. Becerra C.
+**Systems Architect | Performance Engineer | Electrical Engineer**
 
-I am an Electrical Engineer who treats software as a physical system. I don't rely on bloated libraries or "magic" abstractions; I build my own from the silicon up. From designing 8-bit computer architectures to implementing custom Tensor libraries for microcontrollers, I specialize in high-performance, hardware-aware asynchronous C++.
+> *Specializing in Deterministic C++ Runtimes & Green Computing*
 
 - 📝 **Technical Writing:** [EDBCBlog on Medium](https://medium.com/@EDBCBlog)
 - 🚀 **Lead Dev:** [The Nodepp Project](https://github.com/NodeppOfficial) — High-performance Async C++.
-- ⚡ **Performance:** My frameworks hit **10K RPS** (Requests per Second) in a low-power dual-core hardware through SSO and Zero-Copy optimizations.
+- ⚡ **Performance:** My frameworks hit **10K+ RPS** (Requests per Second) in a low-power dual-core hardware through SSO and Zero-Copy optimizations.
 
-## 🛠️ Hardware & Systems Engineering
+## ⚡ The Mission: Eliminating the "Hardware Tax"
+I am an Electrical Engineer transitioned into High-Performance Software Architecture. My work focuses on **Silicon-Logic Parity** — the idea that software should respect the physical limits of the hardware it runs on.
+
+Through the **Nodepp Project**, I have demonstrated that we can achieve **11,000x Virtual Memory efficiency** and **13x Infrastructure ROI** by moving away from heavy managed runtimes toward deterministic, vertically integrated C++ architectures.
+
+## 📄 Selected Research & Publications
+**White Paper:** [Green Computing at the Edge: Scaling Resource-Dense Applications through Deterministic RAII and Silicon-Logic Parity.](https://github.com/NodeppOfficial/nodepp/blob/main/WHITEPAPER.md)
+
+## 🛠️ Core Stack & Expertise
+
+| Category | Technologies |
+| --- | --- |
+| **Low-Level I/O** | `io_uring`, `epoll`, `kqueue`, `IOCP`, Linux/Windows Kernel Primitives |
+| **Memory Systems** | Deterministic RAII, Zero-Copy Slicing, Cache-Locality Optimization |
+| **Concurrency** | Stackless Coroutines, Actor-Reactor Models, Async Event-Loops |
+| **Platforms** | Bare-Metal (ESP32/AVR), Linux Servers, WASM, Windows |
+
+## ⭐ Hardware & Systems Engineering
 
 ### [SAP-1 Computer](https://github.com/EDBCREPO/SAP-1)
 A functional implementation of the **Simple-As-Possible (SAP-1)** computer architecture from Albert Paul Malvino’s *Digital Computer Electronics*. This project represents my deep understanding of instruction sets, bus architectures, and CPU logic.
 
 ### [TensorML-Arduino](https://github.com/EDBCREPO/TensorML-Arduino)
 A "from-scratch" Image Processing and Machine Learning library for the ESP32 and OV7670. 
-* **Custom Tensor Engine:** Pointer-arithmetic math operators and manual memory management designed for the constraints of embedded systems.
-* **Embedded Vision:** Real-time implementation of Haar Cascades, Sobel filters, LBP, and template matching.
-* **Neural Framework:** Built-in MLP (Multi-Layer Perceptron) featuring manual backpropagation and custom activation kernels (ReLU, Sigmoid, Softmax).
+- **Custom Tensor Engine:** Pointer-arithmetic math operators and manual memory management designed for the constraints of embedded systems.
+- **Embedded Vision:** Real-time implementation of Haar Cascades, Sobel filters, LBP, and template matching.
+- **Neural Framework:** Built-in MLP (Multi-Layer Perceptron) featuring manual backpropagation and custom activation kernels (ReLU, Sigmoid, Softmax).
 
-## 🚀 The Nodepp Ecosystem
-*Modern Asynchronous C++ for the entire Stack.*
+## 🔬 Lead Research: The Nodepp Project
+**[Nodepp](https://github.com/NodeppOfficial/nodepp)** is my research into the **Efficiency Paradox**. It is a unified asynchronous C++ runtime that scales from 8-bit microcontrollers to multi-core cloud servers with one codebase.
 
-* **[Nodepp Core](https://github.com/NodeppOfficial/nodepp):** An async C++ framework with an internal Event Loop. Uses **SSO (Small Stack Optimization)** to eliminate heap fragmentation and maximize CPU cache hits.
-* **[Nodepp for Arduino](https://github.com/NodeppOfficial/nodepp-arduino):** Bringing zero-delay multitasking to bare-metal hardware.
-* **[Nodepp for Web](https://github.com/NodeppOfficial/nodepp-wasm):** High-performance C++ logic compiled to WebAssembly for the browser.
+- **📈 Performance:** 2.9MB RSS @ 6,000+ RPS (Outperforming Go and Bun in the same machine).
+- **💡 Innovation:** Architected `ptr_t` (Deterministic Memory), `kernel_t` (Unified Reactor) and `coroutine_t` (stackless coroutine).
+- **🌱 Impact:** Built for Green Computing — reducing data center energy consumption through instruction-per-watt efficiency.
 
-## 🔬 Featured Projects & Experiments
+## 🚀 Featured Projects & Experiments
 
 | Project | Description |
 | :--- | :--- |
@@ -36,7 +53,7 @@ A "from-scratch" Image Processing and Machine Learning library for the ESP32 and
 | **[Duck Hunt VR](https://edbcrepo.itch.io/duck-hunt-vr)** | High-performance WASM port featuring AR marker tracking and low-latency orientation. |
 | **[Raylib Gemini Chat](https://github.com/EDBCREPO/raylib-gemini-chat)** | Real-time LLM integration within a native C++ rendering engine. |
 
-## 🔧 Technical Toolkit
+---
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
